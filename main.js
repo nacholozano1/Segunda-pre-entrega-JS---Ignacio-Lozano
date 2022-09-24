@@ -3,7 +3,7 @@ alert("Bienvenido a la calculadora de impuestos de los juegos de steam");
 const autorizacion = "empezar";
 
 
-let usuario = prompt("Ingrese 'empezar' para iniciar");
+let usuario = prompt('Ingrese "empezar" para iniciar');
     if (usuario == autorizacion){
         alert("Bienvenido!")
         
@@ -18,7 +18,7 @@ let usuario = prompt("Ingrese 'empezar' para iniciar");
     } 
     
     while (usuario != autorizacion){
-        alert("Tenés que escribir 'empezar' crack, no " + "'" + usuario + "'" + ". Dale al refresh para probar de nuevo ;)");
+        alert('Tenés que escribir "empezar" crack, no ' + '"' + usuario + '"' + '. Dale al refresh para probar de nuevo ;)');
         break;
         } 
 
